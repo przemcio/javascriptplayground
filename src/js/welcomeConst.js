@@ -1,0 +1,1 @@
+var welcomeConst ={msg:'Welcome :',userName:'<here put your name> See welcomeConst.js'};
