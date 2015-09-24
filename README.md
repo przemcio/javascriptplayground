@@ -11,9 +11,13 @@ Please be sure that you have configured PATH to you npm instalation.
 Before you run the test please be sure that you install following packages: karma, karma-qunit, gulp, karma-phantomjs-launcher. Here are required commands (installation of required packages see node_modules directory):
 
    npm install gulp -g   
+   
    npm install karma -g
+   
    npm install karma-qunit
+   
    npm install karma-phantomjs-launcher
+   
 
  -g parameter means that the package will be install in global npm directory.  
 
