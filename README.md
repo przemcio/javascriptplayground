@@ -2,7 +2,7 @@
 
 This is  only a playground for JavaScript course
 
-## How to prepare enviroment 
+## How to prepare enviroment: 
 
 If you haven't already installed npm, please read http://blog.npmjs.org/post/85484771375/how-to-install-npm
 
