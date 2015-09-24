@@ -22,7 +22,7 @@ Before you run the test please be sure that you install following packages: karm
  -g parameter means that the package will be install in global npm directory.  
 
 
-##To run simple test: 
+##How to run the test: 
 
 gulp test - to run the test only ones.
 
