@@ -12,7 +12,7 @@ Before you run the test please be sure that you install following packages: karm
 
    npm install gulp -g   
    
-   npm install karma -g
+   npm install karma -g  (required python and VisualStudio on windows WTF?!)
    
    npm install karma-qunit
    
