@@ -28,9 +28,6 @@ gulp test - to run the test only ones.
 
 gulp tdd - test will be run automaticly after each test change. 
 
-you may also run karma directly by invoking 
-
-karma start karma.conf.js
 
 
 
