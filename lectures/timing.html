@@ -1,0 +1,95 @@
+ <!-- This part takes ~ 1h 40m  -->
+<html lang="en">
+    <head>
+        <style>
+            body{
+                width:1024px;
+                font-size: 36px;
+                font-family: 'Armata', sans-serif;
+				background-color: black;
+				color: #eee;
+				text-shadow: 1px 1px 2px #eee;
+            }
+
+            .step{
+                text-align:center;
+                width:1024px;
+               
+            }
+
+            .fallback-message {
+               	color: #eee;
+                line-height: 1.3;
+                width: 780px;
+                padding: 10px 10px 0;
+                margin: 20px auto;
+                border: 1px solid #E4C652;
+                border-radius: 10px;
+              
+            }
+
+            .fallback-message p {
+                margin-bottom: 10px;
+            }
+
+            .impress-supported .fallback-message {
+                display: none;
+            }
+
+			em {
+				font-style: normal;
+				border-bottom: 1px solid #484d52;
+				padding-bottom: 2px;
+				color: #d5a830;
+			}
+
+			b {
+				font-size: 70px;
+				line-height:80px;
+			}
+        </style>
+    </head>
+    <body class="impress-not-supported">
+    <div id="impress">
+        <div id="timmingModel" class="step" data-y="0" data-z='0' data-rotate='0'>
+                <p><b>Timming API</b></p>
+                <p>One thread "...to rule them all."</p> 
+                <p>Model.png</p> 
+                <p>Really ?</p> 
+
+        
+
+        </div>
+
+        <div id="timmingAPI" class="step" data-y='5000' data-z='5000' data-rotate='90'>
+                <p><b>Timming API</b></p>
+                <p>SetTimeout</p> 
+                <p>setInterval</p> 
+                <p>clearTimeout</p> 
+                <p>clearInterval</p> 
+                <p>This is a prototype base programming</p>
+        </div>
+
+        <div id="test" class="step" data-y="10000" data-z='10000' data-rotate='0'>
+                <p><b>Testing async</b></p>
+                <p>Qunit API</p> 
+                <p>Let's do some codingc</p> 
+        </div>
+        
+
+    </div>
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+
+
+        <script type="text/javascript" src="js/impress.js"></script>
+        <script type="text/javascript">impress().init();</script>
+
+
+
+    </body>
+</html>
+
