@@ -1,5 +1,7 @@
 # Javascript playground  
-[![Build Status](https://travis-ci.org/przemcio/javascriptplayground.svg)](https://travis-ci.org/przemcio/javascriptplayground)
+Master [![Build Status](https://travis-ci.org/przemcio/javascriptplayground.svg)](https://travis-ci.org/przemcio/javascriptplayground)
+solution_introduction [![Build Status](https://travis-ci.org/przemcio/javascriptplayground.svg?branch=solution_introduction)](https://travis-ci.org/przemcio/javascriptplayground)
+
 
 This is  only a playground for JavaScript course
 
