@@ -1,4 +1,5 @@
-# Javascript playground
+# Javascript playground  
+[![Build Status](https://travis-ci.org/przemcio/javascriptplayground.svg)](https://travis-ci.org/przemcio/javascriptplayground)
 
 This is  only a playground for JavaScript course
 
