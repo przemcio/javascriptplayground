@@ -47,6 +47,21 @@
 				font-size: 70px;
 				line-height:80px;
 			}
+            #prototype3{
+                background-image: url('./img/objectTreasureMap.png');
+                background-size: 800px 540px;
+                background-position: bottom;
+                background-repeat: no-repeat;
+                height: 720px;
+            }
+            #prototype4{
+                background-image: url('./img/inherit.png');
+                background-size: 800px 540px;
+                background-position: bottom;
+                background-repeat: no-repeat;
+                height: 720px;
+            }
+
         </style>
     </head>
     <body class="impress-not-supported">
@@ -54,31 +69,40 @@
 
 
             <div id="inheritance" class="step" data-y="0" data-z='0' data-rotate='0'>
-                <p><b>Inheritance</b></p>
-                <p>There are objects</p> 
-                <p>But, there aren't classes</p> 
-                <p>This is a prototype base programming</p>
+                <p><b>Inheritance in JavaScript</b></p>
+                <p>There are objects but ...</p>
+                <p>there aren't any classes (ES5)</p>
+                <p>Instead we have prototype base programming</p>
             </div>
             <div id="prototype" class="step" data-y="3000" data-z='3000' data-rotate='90'>
-                <p><b>Prototype 1/2</b></p>
-                <p>Every JavaScript object has a prototype. The prototype is also an object? or maybe it a function ?</p>
-                <p>All JavaScript objects inherit their properties and methods from their prototype.</p> 
+                <p><b>Prototype 1/5</b></p>
+                <p>Every JavaScript object,function have own prototype.</p>
                 <p>Example #1</p> 
                 <p>All JavaScript objects inherit the properties and methods from their prototype.</p>
             </div>
         
               <div id="prototype2" class="step" data-y="6000" data-z='6000' data-rotate='0'>
-                <p><b>Prototype 2/2</b></p>
+                <p><b>Prototype 2/5</b></p>
                 <p>Prototypes are a convenient way to define types of objects, but they’re actually a feature of functions.</p>
-                <p>Example #2 Diffrent prototypes(check diffrent creation of objects and their prototypes)</p>
-                <p>See Object treasure map png</p> 
+                <p>Example #2 Different prototypes(check different creation of objects and their prototypes)</p>
                 <p>Constructor of function</p>
                 <p>Example #3 constructor</p> 
-                <p>Access to Interited data see inherit.png</p>
-                <p>Example #4 hasOwnProperty/p>       
-            </div>
 
+            </div>
+        <div id="prototype3" class="step" data-y="9000" data-z='9000' data-rotate='90'>
+            <p><b>Prototype 3/5</b></p>
         </div>
+        <div id="prototype4" class="step" data-y="12000" data-z='12000' data-rotate='0'>
+            <p><b>Prototype 4/5</b></p>
+        </div>
+        <div id="prototype5" class="step" data-y="16000" data-z='16000' data-rotate='90'>
+            <p><b>Prototype 5/5</b></p>
+            <p>There is a possibility to check whether property is implemented in given object or it is located in prototype</p>
+            <p>Example #4 hasOwnProperty</p>
+        </div>
+
+
+    </div>
 
         <div class="fallback-message">
             <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
