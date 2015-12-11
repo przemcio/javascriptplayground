@@ -47,22 +47,30 @@
 				font-size: 70px;
 				line-height:80px;
 			}
+            #m{
+                background-image: url('./img/timingModel.png');
+                background-size: 800px 540px;
+                background-position: bottom;
+                background-repeat: no-repeat;
+                height: 720px;
+            }
+
         </style>
     </head>
     <body class="impress-not-supported">
     <div id="impress">
-        <div id="timmingModel" class="step" data-y="0" data-z='0' data-rotate='0'>
+        <div id="timmingModel" class="step" data-y="0" data-x='0' data-rotate='0'>
                 <p><b>Timming API</b></p>
-                <p>One thread "...to rule them all."</p> 
-                <p>Model.png</p> 
-                <p>Really ?</p> 
-
-        
-
+                <p>One thread "...to rule them all."</p>
+                <p>Really ?</p>
         </div>
 
-        <div id="timmingAPI" class="step" data-y='5000' data-z='5000' data-rotate='90'>
-                <p><b>Timming API</b></p>
+        <div id="m" class="step" data-y='5000' data-x='5000' data-rotate='90'>
+            <p><b>Timing Model</b></p>
+            <p> </p>
+        </div>
+        <div id="timmingAPI" class="step" data-y='10000' data-x=10000' data-rotate='0'>
+                <p><b>Timing API</b></p>
                 <p>SetTimeout</p> 
                 <p>setInterval</p> 
                 <p>clearTimeout</p> 
@@ -70,7 +78,8 @@
                 <p>This is a prototype base programming</p>
         </div>
 
-        <div id="test" class="step" data-y="10000" data-z='10000' data-rotate='0'>
+
+        <div id="test" class="step" data-y="15000" data-x='15000' data-rotate='90'>
                 <p><b>Testing async</b></p>
                 <p>Qunit API</p> 
                 <p>Let's do some codingc</p> 
