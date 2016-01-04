@@ -27,5 +27,3 @@ test("simple registration module via function", function (assert) {
     assert.notOk(window.m_module);  //leak
 });
 
-
-
